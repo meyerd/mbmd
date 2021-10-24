@@ -20,6 +20,7 @@ mbmd inspect [flags]
                           Valid types are:
                             RTU
                               ABB       ABB A/B-Series meters
+                              DDM       DDM18SD
                               DZG       DZG Metering GmbH DVH4013 meters
                               IEM3000   Schneider Electric iEM3000 series
                               INEPRO    Inepro Metering Pro 380
@@ -51,7 +52,7 @@ mbmd inspect [flags]
   -b, --baudrate int     Serial interface baud rate (default 9600)
       --comset string    Communication parameters for default adapter, either 8N1 or 8E1.
                          Only applicable if the default adapter is an RTU device (default "8N1")
-  -c, --config string    Config file (default is $HOME/mbmd.yaml)
+  -c, --config string    Config file (default is $HOME/mbmd.yaml, ./mbmd.yaml, /etc/mbmd.yaml)
   -h, --help             Help for mbmd
       --raw              Log raw device data
       --rtu              Use RTU over TCP for default adapter.
