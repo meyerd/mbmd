@@ -5,7 +5,6 @@ go 1.16
 require (
 	github.com/alvaroloes/enumer v1.1.2
 	github.com/andig/gosunspec v0.0.0-20210511114617-aa30cf9b7a3f
-	github.com/cpuguy83/go-md2man/v2 v2.0.1 // indirect
 	github.com/deepmap/oapi-codegen v1.8.2 // indirect
 	github.com/eclipse/paho.mqtt.golang v1.3.5
 	github.com/felixge/httpsnoop v1.0.2 // indirect
@@ -20,7 +19,7 @@ require (
 	github.com/influxdata/line-protocol v0.0.0-20210311194329-9aa0e372d097 // indirect
 	github.com/pascaldekloe/name v1.0.1 // indirect
 	github.com/spf13/cast v1.4.0 // indirect
-	github.com/spf13/cobra v1.2.1
+	github.com/spf13/cobra v1.7.0
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.8.1
 	github.com/tcnksm/go-latest v0.0.0-20170313132115-e3007ae9052e
